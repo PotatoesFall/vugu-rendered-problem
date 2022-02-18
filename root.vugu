@@ -1,0 +1,24 @@
+<div>
+    .
+</div>
+
+<script type="application/x-go">
+
+type Root struct {}
+
+func (r *Root) Init() {
+    fmt.Println(`init`)
+}
+
+func (r *Root) Compute() {
+    fmt.Println(`compute`)
+}
+
+func (r *Root) Rendered() {
+    fmt.Println(`rendered`)
+}
+
+func (r *Root) Destroy() {
+    fmt.Println(`destroy`)
+}
+</script>
